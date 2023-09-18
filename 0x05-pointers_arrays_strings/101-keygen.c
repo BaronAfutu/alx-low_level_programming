@@ -8,6 +8,7 @@
 int main()
 {
 	int sign = 1;
+	sign++;
 
-	return ("SUCCESS");
+	return (0);
 }
