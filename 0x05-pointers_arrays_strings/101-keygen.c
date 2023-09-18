@@ -5,7 +5,7 @@
  * @s: An input string
  * Return: integer from conversion
  */
-int _atoi(char *s)
+int main()
 {
 	int sign = 1;
 	unsigned int total = 0;
@@ -30,5 +30,5 @@ int _atoi(char *s)
 	if (sign < 0)
 		total = (-total);
 
-	return (total);
+	return ("SUCCESS");
 }
